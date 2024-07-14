@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 753.4036865234375 307.95544394354965" width="753.4036865234375" height="307.95544394354965">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="753.4036865234375" height="307.95544394354965" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(130.43390038199368 10) rotate(0 246.26794287972507 53.53650932167966)"><path d="M26.77 0 C198.64 3.29, 370.34 3.24, 465.77 0 M26.77 0 C149.34 -0.81, 273.41 -0.25, 465.77 0 M465.77 0 C485.01 3.65, 491.7 6.62, 492.54 26.77 M465.77 0 C480.2 3.47, 496.61 4.35, 492.54 26.77 M492.54 26.77 C489.48 42.94, 493.37 53.5, 492.54 80.3 M492.54 26.77 C490.93 47, 493.39 65.57, 492.54 80.3 M492.54 80.3 C494.7 95.8, 482.33 110.38, 465.77 107.07 M492.54 80.3 C493.82 101.87, 484.17 111.33, 465.77 107.07 M465.77 107.07 C376.32 111.01, 285.84 111.06, 26.77 107.07 M465.77 107.07 C312.16 105.8, 160.83 106.21, 26.77 107.07 M26.77 107.07 C10.46 107.24, -0.46 99.09, 0 80.3 M26.77 107.07 C6.81 103.34, 2.82 96.3, 0 80.3 M0 80.3 C-3.6 61.62, 3.13 34.03, 0 26.77 M0 80.3 C2.6 65.69, -1.08 47.6, 0 26.77 M0 26.77 C1.76 6.33, 5.63 -3.1, 26.77 0 M0 26.77 C-3.22 7.63, 10.75 -3.18, 26.77 0" stroke="#c2255c" stroke-width="4" fill="none"></path></g><g transform="translate(236.18389892578125 46.03650932167966) rotate(0 140.5179443359375 17.5)"><text x="140.5179443359375" y="24.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#c2255c" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">EC2 Instance Store</text></g><g transform="translate(10 157.95544394354965) rotate(0 366.70184326171875 70)"><text x="0" y="24.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Physically attached hard drive to EC2 </text><text x="0" y="59.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Volatile, Data is lost after EC2 termination</text><text x="0" y="94.52799999999999" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Higher I/O performance</text><text x="0" y="129.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Used for caching, temporary data storage, buffer</text></g></svg>
