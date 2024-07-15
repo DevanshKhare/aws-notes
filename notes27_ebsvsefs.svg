@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 728.7194213867188 419.09090909090446" width="728.7194213867188" height="419.09090909090446">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="728.7194213867188" height="419.09090909090446" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(177.9960743297229 10) rotate(0 186.3636363636365 47.272727272727025)"><path d="M23.64 0 C139.54 4.08, 257.94 5.78, 349.09 0 M23.64 0 C116.18 2.02, 206.93 1.46, 349.09 0 M349.09 0 C362.73 3.3, 371.48 7.04, 372.73 23.64 M349.09 0 C361.9 -3.25, 371.83 4.57, 372.73 23.64 M372.73 23.64 C373.78 41.24, 373.43 56.24, 372.73 70.91 M372.73 23.64 C371.49 40.51, 373.97 54.93, 372.73 70.91 M372.73 70.91 C376.64 85.46, 362.62 92.29, 349.09 94.55 M372.73 70.91 C370.09 86.98, 365.56 95.16, 349.09 94.55 M349.09 94.55 C264.22 91.28, 181.52 89.52, 23.64 94.55 M349.09 94.55 C256.2 91.09, 164.97 92.19, 23.64 94.55 M23.64 94.55 C5.18 97.1, 2.4 89.56, 0 70.91 M23.64 94.55 C5.24 92.67, -0.29 83.8, 0 70.91 M0 70.91 C0.5 59.63, 1.02 45.38, 0 23.64 M0 70.91 C0.21 56.65, 1.09 47.18, 0 23.64 M0 23.64 C-0.06 8.72, 5.04 0.27, 23.64 0 M0 23.64 C-3.92 3.85, 6.05 0.51, 23.64 0" stroke="#6741d9" stroke-width="4" fill="none"></path></g><g transform="translate(281.32574462890625 39.772727272726115) rotate(0 83.03396606445312 17.5)"><text x="0" y="24.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">EBS vs EFS</text></g><g transform="translate(315.00972747802734 126.81818181818016) rotate(0 49.34998321533203 17.5)"><text x="0" y="24.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* EBS </text></g><g transform="translate(10 186.81818181818016) rotate(0 354.3597106933594 37.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic"> -&gt; only be attached to One instance (except multi-attach io1 and io2)</text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic"> -&gt; locked at AZ level</text><text x="0" y="67.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic"> -&gt; need to take snapshot to move across AZ and restore</text></g><g transform="translate(324.15172576904297 284.0909090909063) rotate(0 40.207984924316406 17.5)"><text x="0" y="24.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* EFS</text></g><g transform="translate(94.85992431640625 334.09090909090446) rotate(0 269.4997863769531 37.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Made for mounting to 100s of instances across AZ</text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Only for Linux Instances</text><text x="0" y="67.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Expensive</text></g></svg>
