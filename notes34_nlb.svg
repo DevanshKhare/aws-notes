@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660.247680664063 430.34509336149495" width="660.247680664063" height="430.34509336149495">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="660.247680664063" height="430.34509336149495" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(93.04348360934864 10) rotate(0 237.08035672268306 80.30141114800608)"><path d="M32 0 C118.59 -1.44, 204.45 1.43, 442.16 0 M32 0 C121.09 4.28, 209.85 3.19, 442.16 0 M442.16 0 C463.63 -1.52, 471.61 8.85, 474.16 32 M442.16 0 C462.16 2.11, 472.9 10.11, 474.16 32 M474.16 32 C472.21 60.58, 478.22 79.91, 474.16 128.6 M474.16 32 C474.49 66.44, 471.64 101.87, 474.16 128.6 M474.16 128.6 C473.21 146.53, 466.02 162.34, 442.16 160.6 M474.16 128.6 C471.69 151.98, 467.35 164.86, 442.16 160.6 M442.16 160.6 C355.84 162.83, 270.67 163.85, 32 160.6 M442.16 160.6 C300.74 158.07, 158.87 157.69, 32 160.6 M32 160.6 C14.38 162.4, 3.58 152.49, 0 128.6 M32 160.6 C7.57 162.67, 3.69 153.58, 0 128.6 M0 128.6 C1.23 99.09, 5.48 72.88, 0 32 M0 128.6 C1.46 97.57, -0.4 69.67, 0 32 M0 32 C3.19 14.33, 10.76 -0.57, 32 0 M0 32 C2.14 14.29, 14.16 3.3, 32 0" stroke="#f08c00" stroke-width="4" fill="none"></path></g><g transform="translate(157.14785103278018 75.61055093295363) rotate(0 172.97598929925152 14.690860215053362)"><text x="0" y="20.590709677419248" font-family="Virgil, Segoe UI Emoji" font-size="23.5053763440859px" fill="#f08c00" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Network Load Balancer (NLB)</text></g><g transform="translate(10 245.34509336149495) rotate(0 320.1238403320315 87.5)"><text x="0" y="24.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Layer 4 load balancer</text><text x="0" y="59.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Deals with TCP and UDP traffic</text><text x="0" y="94.52799999999999" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Can handle millions of requests per seconds</text><text x="0" y="129.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; It has 1 static IP per availability zone.</text><text x="0" y="164.528" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">-&gt; Rest implementation is similar to ALB</text></g></svg>
