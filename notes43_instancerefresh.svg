@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.6591796874995 413.14753208947513" width="1024.6591796874995" height="413.14753208947513">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="1024.6591796874995" height="413.14753208947513" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(326.13393600598783 10) rotate(0 186.19565383776217 59.41285820464145)"><path d="M29.71 0 C131.7 -2.52, 232.53 -1.55, 342.68 0 M29.71 0 C123.89 1.24, 220.76 1.06, 342.68 0 M342.68 0 C364.4 2.48, 371.19 9.46, 372.39 29.71 M342.68 0 C363.47 2.46, 371.94 11.34, 372.39 29.71 M372.39 29.71 C370.9 51.01, 374.74 67.28, 372.39 89.12 M372.39 29.71 C372.82 53.88, 371.5 74.55, 372.39 89.12 M372.39 89.12 C372.38 108.18, 363.17 121.04, 342.68 118.83 M372.39 89.12 C369.3 105.56, 361.54 117.54, 342.68 118.83 M342.68 118.83 C252.94 116.89, 165.42 119.93, 29.71 118.83 M342.68 118.83 C223.89 116.44, 104.59 118.1, 29.71 118.83 M29.71 118.83 C10.3 117.36, 1.45 109.11, 0 89.12 M29.71 118.83 C14.29 119.76, 0.03 111.22, 0 89.12 M0 89.12 C3.27 74.03, 2.42 53.37, 0 29.71 M0 89.12 C2.73 77.89, 1.64 63.06, 0 29.71 M0 29.71 C2.75 8.71, 9.51 -3.13, 29.71 0 M0 29.71 C-2.05 11.24, 14.33 2.6, 29.71 0" stroke="#f08c00" stroke-width="4" fill="none"></path></g><g transform="translate(427.04965972900345 56.91285820463963) rotate(0 85.2799301147461 12.5)"><text x="85.2799301147461" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Instance Refresh</text></g><g transform="translate(10 174.44630395928107) rotate(0 449.2596435546873 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#2f9e44" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Instance refresh is a way to update or replace virtual machines without causing downtime</text></g><g transform="translate(10 225.68004666934576) rotate(0 467.559631347656 25)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#2f9e44" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic"> * Useful when you want to update the launch template and reflect it on every instance with</text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#2f9e44" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic"> zero downtime.</text></g><g transform="translate(10 301.91378937941045) rotate(0 502.3295898437498 25)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#2f9e44" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Set minimum healthy percentage ex 60% so rest 40% instances can be refreshed with new changes</text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#2f9e44" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">at a time.</text></g><g transform="translate(10 378.14753208947513) rotate(0 453.2196655273435 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#2f9e44" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Instead of updating all machines at once, it updates them one by one or in small groups.</text></g></svg>
