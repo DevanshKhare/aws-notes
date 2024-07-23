@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 795.599487304688 393.1678836890569" width="795.599487304688" height="393.1678836890569">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="795.599487304688" height="393.1678836890569" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(202.72507949659894 10) rotate(0 195.07466415574527 69.37147147784526)"><path d="M32 0 C107.41 -2.18, 179.17 -1.64, 358.15 0 M32 0 C147.39 2.1, 263.32 0.3, 358.15 0 M358.15 0 C378.59 0.22, 392.04 7.36, 390.15 32 M358.15 0 C378.24 0.31, 393.57 10.26, 390.15 32 M390.15 32 C393.08 52.92, 387.34 74.12, 390.15 106.74 M390.15 32 C392.42 53.91, 391.12 75.75, 390.15 106.74 M390.15 106.74 C391.49 129.93, 380.72 137.06, 358.15 138.74 M390.15 106.74 C393.57 132.12, 381.78 142.98, 358.15 138.74 M358.15 138.74 C251.2 135.12, 145.81 134.62, 32 138.74 M358.15 138.74 C231.36 135.78, 106.36 138.39, 32 138.74 M32 138.74 C6.74 137.1, -3.49 125.44, 0 106.74 M32 138.74 C6.18 135.41, -2.48 130.89, 0 106.74 M0 106.74 C-1.29 79.04, 0.82 53.38, 0 32 M0 106.74 C-0.26 83.19, -0.32 62.62, 0 32 M0 32 C0.07 7.02, 10.21 -3.9, 32 0 M0 32 C-1.34 9.85, 7.63 -1.67, 32 0" stroke="#6741d9" stroke-width="4" fill="none"></path></g><g transform="translate(322.56980133056686 66.87147147784526) rotate(0 75.22994232177734 12.5)"><text x="75.22994232177734" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#6741d9" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">ASG Key points</text></g><g transform="translate(10 183.1678836890569) rotate(0 387.799743652344 100)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Create Auto Scaling group from EC2 section.</text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Create Launch Template.</text><text x="0" y="67.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Launch template is blueprint with which new instance will be launched.</text><text x="0" y="92.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Attach a load balancer to ASG, with this ASG has control to launch</text><text x="0" y="117.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">    EC2 instance and add to load balancer target group.</text><text x="0" y="142.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* As soon as ASG will trigger it will add instance to load balancer and that </text><text x="0" y="167.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">    will be linked to target group that is attached to load balancer.</text><text x="0" y="192.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Set the minimum, desired, maximum capacity. </text></g></svg>
