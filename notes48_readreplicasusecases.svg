@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760.8795166015625 397.09843587791147" width="760.8795166015625" height="397.09843587791147">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="760.8795166015625" height="397.09843587791147" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(197.91585404301077 10) rotate(0 182.52390425777003 69.55413255218627)"><path d="M32 0 C127.75 1.47, 222.31 -0.39, 333.05 0 M32 0 C134.19 0.19, 235.26 0.47, 333.05 0 M333.05 0 C357.77 -2.89, 365.15 9.44, 365.05 32 M333.05 0 C350.95 -2.53, 367.65 7.77, 365.05 32 M365.05 32 C361.68 50.88, 367.17 71.31, 365.05 107.11 M365.05 32 C365.1 51.79, 364.95 68.73, 365.05 107.11 M365.05 107.11 C361.85 132.03, 354.12 139.21, 333.05 139.11 M365.05 107.11 C369.21 132.42, 356.56 135.16, 333.05 139.11 M333.05 139.11 C245.22 140.75, 157.72 142.18, 32 139.11 M333.05 139.11 C270.33 138.66, 208.8 138.37, 32 139.11 M32 139.11 C13.94 136.78, 3.8 128.09, 0 107.11 M32 139.11 C13.67 141.04, -1.29 128.28, 0 107.11 M0 107.11 C-0.63 95.01, 4.27 78.79, 0 32 M0 107.11 C0.99 85.7, -0.42 67.28, 0 32 M0 32 C-0.61 14.49, 6.91 -0.03, 32 0 M0 32 C-2.92 14.04, 11.03 4.2, 32 0" stroke="#e03131" stroke-width="4" fill="none"></path></g><g transform="translate(273.4478302001953 69.55413255218627) rotate(0 106.99192810058594 10)"><text x="106.99192810058594" y="14.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Read Replicas (Use Cases)</text></g><g transform="translate(10 190.14909592351796) rotate(0 268.455810546875 10)"><text x="0" y="14.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* There is a production database that is handling application load.</text></g><g transform="translate(10 229.38643091211634) rotate(0 370.43975830078125 10)"><text x="0" y="14.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Now you want to have to perform analytics on same database but that will increase load.</text></g><g transform="translate(10 268.6237659007147) rotate(0 250.88790893554688 10)"><text x="0" y="14.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* So you can create a read replica to run new workload there.</text></g><g transform="translate(10 307.8611008893131) rotate(0 147.71990966796875 10)"><text x="0" y="14.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* With this main DB is not affacted.</text></g><g transform="translate(10 347.09843587791147) rotate(0 318.1438293457031 20)"><text x="0" y="14.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">* Replica set is used to only run SELECT query, which is get request. Not the </text><text x="0" y="34.016" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#6741d9" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">  INSERT, UPDATE, DELETE.</text></g></svg>
